@@ -12,9 +12,10 @@
 		D05E3FE120A92649003D761E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05E3FDF20A92649003D761E /* Main.storyboard */; };
 		D05E3FE320A92649003D761E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05E3FE220A92649003D761E /* Assets.xcassets */; };
 		D05E3FE620A92649003D761E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05E3FE420A92649003D761E /* LaunchScreen.storyboard */; };
-		D05E3FE920A92649003D761E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E3FE820A92649003D761E /* main.m */; };
+		D05E3FE920A92649003D761E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E3FE820A92649003D761E /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D05E3FF320A9264A003D761E /* MMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E3FF220A9264A003D761E /* MMTests.m */; };
 		D05E3FFE20A9264A003D761E /* MMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E3FFD20A9264A003D761E /* MMUITests.m */; };
+		D05E400E20A9264A003D761E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E400D20A9264A003D761E /* Person.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D05E3FF920A9264A003D761E /* MMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05E3FFD20A9264A003D761E /* MMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMUITests.m; sourceTree = "<group>"; };
 		D05E3FFF20A9264A003D761E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05E400C20A9264A003D761E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D05E400D20A9264A003D761E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D05E3FE420A92649003D761E /* LaunchScreen.storyboard */,
 				D05E3FE720A92649003D761E /* Info.plist */,
 				D05E3FE820A92649003D761E /* main.m */,
+				D05E400C20A9264A003D761E /* Person.h */,
+				D05E400D20A9264A003D761E /* Person.m */,
 			);
 			path = MM;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				D05E3FDE20A92649003D761E /* ViewController.m in Sources */,
 				D05E3FE920A92649003D761E /* main.m in Sources */,
+				D05E400E20A9264A003D761E /* Person.m in Sources */,
 				D05E3FDB20A92649003D761E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
